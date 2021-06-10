@@ -1,4 +1,4 @@
-f = open('27v20_B.txt').readlines()
+f = open('files/27v20_B.txt').readlines()
 n = int(f.pop(0))
 f = [[int(i.split()[0]), int(i.split()[1])] for i in f]
 s = 0
