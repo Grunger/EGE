@@ -1,4 +1,4 @@
-f = open('files/27v20_B.txt')
+f = open('files/27v18_B.txt')
 n = int(f.readline())
 s = 0
 min_d = 10**10
@@ -11,5 +11,4 @@ if s % 65 == 0:
     s += min_d
 print(s)
 
-# 300018 334066293
-#        334058877
+# 336852 333635259
