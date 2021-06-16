@@ -18,7 +18,7 @@ for i in range(n):
     if d:
         min_d_new = min_d[:]
         for j in range(1, 3):
-            min_d_new[(d + j) % 3] = min(min_d_new[(d + j) % 3], abs(a - b) + min_d[d])
+            min_d_new[(d + j) % 3] = min(min_d_new[(d + j) % 3], abs(a - b) + min_d[j])
         min_d = min_d_new[:]
         min_d[d] = min(min_d[d], abs(a - b))
 if s % 3 != 0:
