@@ -7,7 +7,7 @@
 # 28 13608 40724928
 
 
-f = open('27-21b.txt')
+f = open('27-21a.txt')
 n = int(f.readline())
 s = 0
 min_d = [10000] * 10
@@ -20,8 +20,8 @@ for item in range(n):
         for j in range(1, 10):
             min_d_new[(d % 10 + j) % 10] = min(min_d[(d % 10 + j) % 10], d + min_d[j])
         min_d = min_d_new[:]
-    min_d[d % 10] = min(min_d[d % 10], d)
+        min_d[d % 10] = min(min_d[d % 10], d)
 print(s, min_d)
-if s % 10 != 8:
+if s % 10 != 0:
     s -= min_d[s % 10 - 8]
 print(s)
