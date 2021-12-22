@@ -9,20 +9,22 @@
 # ряд и место выкупленного билета, не превышающие 10000. В ответе запишите два целых числа:
 # номер ряда и наименьший номер места из найденных в этом ряду подходящих пар.
 
-f = open('26-59.txt')
+f = open('26-59_1.txt')
 
+pos = [[False] * 100001 for _ in range(100001)]
+mx, my = 0, 0
 n = int(f.readline())
-pos = {}
 for i in range(n):
     x, y = map(int, f.readline().split())
-    pos[x] = pos.get(x, []) + [y]
+    mx = max(mx, x)
+    my = max(my, y)
+    pos[x][y] = True
 print('Read done')
-stop = False
-for x in sorted(pos.keys(), reverse=True):
-    for y in sorted(pos[x]):
-        if any(abs(y - z) == 3 for z in pos[x]):
+a = []
+for x in range(mx, -1, -1):
+    for y in range(my - 3):
+        if pos[x][y] == pos[x][y + 3] == True:
             print(x, y + 1)
-            stop = True
-            break
-    if stop:
-        break
+            a.append([x, y + 1])
+print('answer')
+print(sorted(a, key=lambda x: (x[0], -x[1]))[-1])
