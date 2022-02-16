@@ -23,5 +23,6 @@ for i in data:
         m3 = i
     else:
         m = max(m, i)
+print(m, m3, m7, m21)
 m = max(m21 * m, m3 * m7)
 print(m)

@@ -1,9 +1,9 @@
 def moves(h):
-    return h + 2, h + 5, h * 3
+    return h + 1, h + 2, h * 2
 
 
 s = [0] * 1000
-win = 27
+win = 70
 for i in range(win):
     if any(j >= win for j in moves(i)):
         s[i] = 1

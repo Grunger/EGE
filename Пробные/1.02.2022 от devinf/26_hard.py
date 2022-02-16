@@ -8,5 +8,5 @@ step = 5
 for x in sorted(places.keys()):
     d = sorted(places[x])
     for i in range(len(d) - step + 1):
-        if d[i + step - 1] - d[i] <= step - 1:
+        if d[i + step - 1] - d[i] <= step - 1 + 8:
             print(x, d[i + step - 1])

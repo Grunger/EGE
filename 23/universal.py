@@ -30,6 +30,6 @@ def f(s, e):
     return a
 
 
-actions = ('+1', '+3', '**2')
-exclude = [22]
-print(f(2, 17) * f(17, 25))
+actions = ('+2', '+3', '*10+1')
+exclude = []
+print(f(3, 12) * f(12, 25))
