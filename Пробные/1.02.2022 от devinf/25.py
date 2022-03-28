@@ -19,27 +19,27 @@ def divs(x):
     return sorted(d)
 
 
-k = 0
-x = 1_200_000
-while k < 5:
-    d = divs(x)
-    if x % 100000 == 0:
-        print(x)
-    # print(x, d, sum(d[:3]))
-    if len(d) >= 4 and sum(d[:4]) % 2022 == 0:
-        print(x, sum(d[:4]))
-        k += 1
-    x -= 1
-
 # k = 0
 # x = 1_200_000
 # while k < 5:
 #     d = divs(x)
-#     d = [i for i in d if i <= x / 2][-3:]
-#     if len(d) == 3 and sum(d) % 2022 == 0 and sum(d) != x:
-#         print(x, sum(d))
+#     if x % 100000 == 0:
+#         print(x)
+#     # print(x, d, sum(d[:3]))
+#     if len(d) >= 4 and sum(d[:4]) % 2022 == 0:
+#         print(x, sum(d[:4]))
 #         k += 1
 #     x -= 1
+
+k = 0
+x = 1_200_000
+while k < 5:
+    d = divs(x)
+    d = [i for i in d if i <= x / 2][-3:]
+    if len(d) == 3 and sum(d) % 2022 == 0 and sum(d) != x:
+        print(x, sum(d))
+        k += 1
+    x -= 1
 
 # for i in range(50):
 #     print(i, divs(i))

@@ -43,12 +43,12 @@ def f_len(s):
 
 n = {5}
 k = 0
-while any(i <= 150 for i in n):
-    if 150 in n:
+while any(i <= 51 for i in n):
+    if 51 in n:
         k += 1
     n_new = set()
     while n:
         n_new = n_new.union(f_len(n.pop()))
-    n = {i for i in n_new if i <= 150}
-print(sorted(n))
+    n = {i for i in n_new if i <= 51 and i != 42}
+    print(sorted(n))
 print(k)

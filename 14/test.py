@@ -1,5 +1,5 @@
 from func import to_base
 
-x = 81 ** 820 - 9 ** 761 - 3 ** 2022 + 14
-x = to_base(x, 10, 9)
-print(x.count('8'))
+x = 14 * 256 ** 19 - 25 * 64 ** 16 + 2 * 16 ** 11 - 33
+x = to_base(x, 10, 4)
+print(x.count('3'))

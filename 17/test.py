@@ -1,8 +1,10 @@
-with open('17.txt') as f:
+with open('../Пробные/от Лени Шастина/17.txt') as f:
     data = [int(i) for i in f.readlines()]
-    m = max(i for i in data if len(str(i)) > 1 and str(i)[-1] == str(i)[-2])
-    sums = [data[i] + data[i + 1] for i in range(len(data) - 1) if
-            (data[i] % 5 == 0 or data[i] % 7 == 0 or data[i + 1] % 5 == 0 or data[i + 1] % 7 == 0) and data[i] + data[
-                i + 1] <= m]
-    print(m)
-    print(len(sums), max(sums))
+    k = 0
+    s = 0
+    for i in range(len(data) - 2):
+        t = sorted([data[i], data[i + 1], data[i + 2]])
+        if t[0] ** 2 + t[1] ** 2 == t[2] ** 2:
+            k += 1
+            s += t[2]
+print(k, s)

@@ -1,10 +1,12 @@
+a = [0]
+
+
 def f(n):
-    if n <= 2:
-        return 1
-    if n % 2 == 1:
-        return f(n - 1) - n
-    return f(n - 2) - f(n - 1) + 2
+    a[0] += 2 * n + 1
+    if n > 1:
+        a[0] += 3 * n - 8
+        f(n - 1)
+        f(n - 4)
 
-
-for i in range(28):
-    print(i, f(i))
+f(50)
+print(a)

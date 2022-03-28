@@ -5,6 +5,5 @@ for n in range(1000):
     r += bin(n)[2:]
     if int(r, 2) <= 6000:
         print(n)
-    else:
-        break
+
 

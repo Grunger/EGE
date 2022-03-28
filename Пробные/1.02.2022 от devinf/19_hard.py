@@ -26,7 +26,7 @@ for i in range(win):
 # выигрышные позиции за 2 хода. Если есть ход в проигрышную позицию и она в пределах игровых позиций
 for i in range(win):
     for j in range(win):
-        if s[i][j] == 0 and any(s[a][b] == -1 and a + b < win for a, b in move((i, j))):
+        if s[i][j] == 0 and any(s[a][b] == -1 for a, b in move((i, j))):
             s[i][j] = 2
 # проигрышные позиции за 2 хода. Если все ходы либо в выигрышные позиции, либо в зону поражения
 for i in range(win):
