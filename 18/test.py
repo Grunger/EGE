@@ -1,4 +1,3 @@
-from pprint import pprint
 import sys
 
 data = sys.stdin.readlines()

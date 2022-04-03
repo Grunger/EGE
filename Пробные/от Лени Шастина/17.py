@@ -1,4 +1,4 @@
-with open('../Пробные/от Лени Шастина/17.txt') as f:
+with open('../Пробные/от Лени Шастина/17-1.txt') as f:
     data = [int(i) for i in f.readlines()]
     k = 0
     s = 0
