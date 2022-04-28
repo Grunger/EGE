@@ -1,14 +1,19 @@
-f = open('6_27_0.txt')
+f = open('6_27B.txt')
 n = int(f.readline())
-s = []
 r = 10
-count = 0
+k = {i: 0 for i in range(10)}
 for i in range(n):
     x = int(f.readline())
-    s.extend([x + a for a in s] + [x])
+    k1 = k.copy()
+    k1[x % r] += 1
+    for j in range(r):
+        k1[(x + j) % r] += k[j]
+    k = k1.copy()
+    # print(x, k)
+print(k[5])
 
-    s = {x % r: x for x in sorted(s)}
-    s = list(s.values())
-    count += len([a for a in s if a % 10 == 5])
-    print(x, [a for a in s if a % 10 == 5])
-print(count)
+# 4
+# 8
+# 7
+# 12
+# 23

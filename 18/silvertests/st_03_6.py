@@ -8,7 +8,7 @@ for i in range(len(data)):
 n = len(data)
 s = [(data[0][0], 0, 0)]
 ans = set()
-stock = 600
+stock = 710
 k = 0
 start = time()
 while s:
