@@ -11,3 +11,5 @@ for i in range(len(s)):
 print(m)
 s = s.split('TSTS')
 print(max([len(i) for i in s]) + 6)
+for i in s:
+    print(len(i), i)
