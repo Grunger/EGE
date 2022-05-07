@@ -1,11 +1,11 @@
 def moves(h):
     a, b = h
-    return (a + 3, b), (a * 2, b), (a, b + 3), (a, b * 2)
+    return (a + 2, b), (a * 3, b), (a, b + 2), (a, b * 3)
 
 
 s = [[0] * 1000 for _ in range(1000)]
-win = 157
-first = 43
+win = 101
+first = 10
 for i in range(1000):
     for j in range(1000):
         if i + j >= win:

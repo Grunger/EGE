@@ -1,42 +1,10 @@
-def artifact(*args, **kwargs):
-    text = {}
-    for word in args:
-        for i in kwargs:
-            if i == 'short':
-                text[i] = short(kwargs[i], word)
-            if i == 'absence':
-                text[i] = absence(kwargs[i], word)
-            if i == 'up_dig':
-                text[i] = up_dig(kwargs[i], word)
-    return text
+from itertools import product
 
 
-def short(n, word):
-    if len(word) <= n:
-        return word
+alphabet = '0123456789ABCDEF'
 
-
-def absence(n, word):
-    if n not in word:
-        return word
-
-
-def up_dig(n, word):
-    if n == 1:
-        if not word.islower():
-            return word
-    if n == 3:
-        if not word.isalpha():
-            return word
-
-
-things = [
-    "Stone", "object", "box",
-    "rock", "Crystal", "Bowl"
-]
-params = {
-    "short": 5,
-    "absence": "B",
-    "up_dig": 1
-}
-print(artifact(*things, **params))
+k = 0
+for item in product(alphabet, repeat=5):
+    if item[4] not in '02468ACE' and item[0] != '1' and item[0] != '0':
+        k += 1
+print(k)

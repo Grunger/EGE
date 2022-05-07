@@ -4,11 +4,11 @@ def moves(h):
 
 
 s = [[0] * 1000 for _ in range(1000)]
-win = 157
-first = 43
+win = 50
+first = 23
 for i in range(1000):
     for j in range(1000):
-        if i + j >= win:
+        if i >= win or j >= win:
             s[i][j] = 5
 
 for i in range(1000):
