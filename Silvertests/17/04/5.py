@@ -6,14 +6,14 @@ def ln8(x):
     while x:
         k += 1
         x //= 8
-    return x
+    return k
 
 
 a = list(map(int, open('17-04-1.txt').readlines()))
 k = 0
 m = 0
 m76 = ln8(max(i for i in a if i % 76 == 0))
-
+print(m76)
 for a, b in zip(a, a[1:]):
     if ln8(a + b) == m76:
         k += 1
