@@ -14,3 +14,5 @@ for i in range(1000):
     M = x + K2
     if L == 12 and M == 19:
         print(i)
+
+
