@@ -7,7 +7,6 @@ while '10' in s:
 print(s)
 s = int(s, 2)
 print(s)
-print(sum(int(i) for i in str(s)))
 s = hex(s)[2:]
 print(s)
 print(sum(int(i, 16) for i in s))

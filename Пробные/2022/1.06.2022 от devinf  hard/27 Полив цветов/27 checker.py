@@ -65,8 +65,8 @@ k = 0
 while True:
     k += 1
     print(k)
-    n = 20
-    d = [randint(1, 100) for _ in range(20)]
+    n = 200
+    d = [randint(1, 100) for _ in range(200)]
     if slow(n, d) != fast(n, d):
         print(d)
         break

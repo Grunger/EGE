@@ -17,13 +17,13 @@ for left in range(s + 1):
     while left + right > 0:
         # print(left, right, a)
         if a[k] < left:
-            ltime += a[k] + 5
+            ltime += a[k] + 10
             a[k], left = 0, left - a[k]
         elif left:
             ltime += left
             a[k], left = a[k] - left, 0
         if a[n - k - 1] < right:
-            rtime += a[n - k - 1] + 5
+            rtime += a[n - k - 1] + 10
             a[n - k - 1], right = 0, right - a[n - k - 1]
         elif right:
             rtime += right
