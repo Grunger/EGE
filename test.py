@@ -1,10 +1,11 @@
-from itertools import product
+def f(s, n):
+    if s == 220 or s < n:
+        return 0
+    if s == n:
+        return 1
+
+    return f(s - 5, n) + f(s // 5, n)
 
 
-alphabet = '0123456789ABCDEF'
-
-k = 0
-for item in product(alphabet, repeat=5):
-    if item[4] not in '02468ACE' and item[0] != '1' and item[0] != '0':
-        k += 1
-print(k)
+for i in range(5, 251):
+    print(i, f(i, 5))
