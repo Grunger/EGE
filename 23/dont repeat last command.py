@@ -15,6 +15,6 @@ def f(s_old, s, e):
 
 
 exclude = [6]
-print(f(0, 2, 5) * f(0, 5, 33))
+print(f(0, 1, 5) * f(0, 5, 25))
 
 # +1 +3 **2

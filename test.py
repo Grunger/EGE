@@ -1,11 +1,14 @@
-def f(s, n):
-    if s == 220 or s < n:
-        return 0
-    if s == n:
-        return 1
+for n in range(34, 1000):
+    s = '1' * n + '2' * n + '3' * n
+    while '21' in s or '31' in s or '32' in s:
+        if '21' in s:
+            s = s.replace('21', '12', 1)
+        if '31' in s:
+            s = s.replace('31', '13', 1)
+        if '32' in s:
+            s = s.replace('32', '23', 1)
 
-    return f(s - 5, n) + f(s // 5, n)
-
-
-for i in range(5, 251):
-    print(i, f(i, 5))
+    if s[100] == '2':
+        print(s)
+        print(n)
+        break

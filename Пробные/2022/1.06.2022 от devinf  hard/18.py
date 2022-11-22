@@ -15,6 +15,7 @@ for i in range(len(data)):
     data[i] = [int(j) for j in data[i].split()]
 # bfs
 n = len(data)
+#  текущий счет, координата y, координата x
 s = [(0, 0, 0)]
 ans = set()
 
