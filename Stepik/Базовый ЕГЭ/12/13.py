@@ -7,7 +7,7 @@ for n in range(1, 1000):
             s = s.replace('>2', '21>', 1)
         if '>3' in s:
             s = s.replace('>3', '11>', 1)
-    s = sum(int(i) for i in s[:-2])
+    s = sum(int(i) for i in s[:-1])
     if s <= 147:
         print(n, s)
 
