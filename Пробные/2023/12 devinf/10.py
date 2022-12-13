@@ -1,0 +1,5 @@
+text = open('10.txt', encoding='cp1251').read().strip().lower()
+print(text.count('город'))
+text = text.replace('.', '').replace(',', '').replace(';', '').replace('!', '').replace('"', '').replace('?', '')
+print(len([i for i in text.split() if i == 'город']))
+print(176 - 44)
