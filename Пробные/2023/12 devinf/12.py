@@ -5,5 +5,7 @@ for n in range(1, 101):
         if '1' in s:
             s = s.replace('1', '10', 1)
         if '01' in s:
-            s = s.replace('01', '100', 1)
+            s = s.replace('01', '1000', 1)
     print(n, len(s), s)
+    if s.count('0') > 99:
+        break

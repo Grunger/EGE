@@ -1,5 +1,5 @@
 # d = dict()
-# with open('24.txt') as f:
+# with open('24_8.txt') as f:
 #     for x in f.read():
 #         d[x] = d.get(x, 0) + 1
 #

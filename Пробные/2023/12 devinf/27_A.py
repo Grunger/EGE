@@ -1,22 +1,19 @@
 import math
 
-f = open('27_A.txt')
+f = open('27_0.txt')
 n, capacity = map(int, f.readline().split())
 data = dict()
 for i in range(n):
     p, k = map(int, f.readline().split())
     data[p] = math.ceil(k / capacity)
-
 last = max(data)
-m1, m2 = 0, 0
-mcost = 10**10
-for p1 in range(1, last):
-    for p2 in range(p1 + 1, last + 1):
-        cost = 0
-        for p in data:
-            cost += data[p] * min(abs(p1 - p), abs(p2 - p))
-        if cost < mcost:
-            m1, m2 = p1, p2
-        mcost = min(cost, mcost)
-print(f'{mcost=}, {m1=}, {m2=}')
-# mcost=37698, m1=262, m2=735
+min_cost = 10**10
+for p1 in range(last + 1):
+    print(p1, last)
+    cost = 0
+    for i in range(last + 1):
+        cost += abs(p1 - i) * data.get(i, 0)
+    min_cost = min(cost, min_cost)
+print(min_cost)
+# 18
+# 14366

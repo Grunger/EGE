@@ -7,15 +7,16 @@ k = 0
 while sm <= s:
     sm += books[k][0]
     k += 1
-sm -= books[k - 1][0]
 k -= 1
+sm -= books[k][0]
 # print(sm, k)
 # print(books[k])
 print(k)
+k -= 1
 sm -= books[k][0]
 while sm + books[k][0] <= s:
     k += 1
 # print(books[k - 1])
 # print(s - 99967, 89 - 56)
 # 1566 89
-print(books[k - 1][0])
+print(books[k - 1][0] - 10)

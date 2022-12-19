@@ -1,4 +1,4 @@
-f = open('107_27_T.txt')
+f = open('107_27_A.txt')
 n = int(f.readline())
 data = list(map(int, f.readlines()))
 

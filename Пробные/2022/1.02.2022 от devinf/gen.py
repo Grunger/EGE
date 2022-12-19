@@ -2,7 +2,7 @@ from random import choice
 
 
 # s = 'QWERTYUIOPASDFGHJKLZXCVBNM'
-# with open('24.txt', 'w') as f:
+# with open('24_8.txt', 'w') as f:
 #     for _ in range(20222022):
 #         f.write(choice(s))
 

@@ -6,6 +6,6 @@ from fnmatch import fnmatch
 #         print(i, i // 2023)
 # 162139404
 
-for i in range(162139404, 10**10, 2023):
+for i in range(0, 10**10, 2023):
     if fnmatch(str(i), '1?2139*4'):
         print(i, i // 2023)
