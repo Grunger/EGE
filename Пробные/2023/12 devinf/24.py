@@ -27,25 +27,4 @@ for i in range(len(s) - 2):
 			queue.append(i + 1)
 			cnt += 1
 print(m)
-exit(0)
-# другой вариант
-combs = [''.join(i) for i in product(sogl, gl, sogl)]
-print(combs)
-s_old = s
-s = s.split(combs[0])
 
-for c in combs:
-	s_new = []
-	for i in s:
-		if c in i:
-			s_new.extend(i.split(c))
-			s.remove(i)
-	s.extend(s_new)
-print(s)
-m = 0
-for i in range(len(s) - 3):
-	if len(s[i] + s[i + 1] + s[i + 2]) + 10 > m:
-		m = len(s[i] + s[i + 1] + s[i + 2]) + 10
-		print(m, s_old[s_old.index(s[i]) - 3:s_old.index(s[i]) + m])
-print(m)
-# 119

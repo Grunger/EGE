@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e63cd5f-027e-4378-8c5f-4cc18322294a" name="Default Changelist" comment="Добавлены решения пробного варианта от 15.12.2021" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1tbjNz1PuVYMkwA6oZciCX1oL5K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Пробные/15.12.2021 от devinf" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Пробные/15.12.2021 от devinf" />
+      <recent name="C:\Users\Andre\YandexDisk\Видеоканал\ЕГЭ\programs\Пробные\Рандомный Крылов 1" />
+      <recent name="F:\YandexDisk\Видеоканал\ЕГЭ\programs\19-21" />
+      <recent name="$PROJECT_DIR$/27/files/46" />
+      <recent name="$PROJECT_DIR$/27/files/23" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/27/Крылов/files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="27" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Пробные/Рандомный Крылов 1/27.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4212_fast_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27/4212_fast_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4212_slow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27/4212_slow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4214" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26/4214.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.4212_fast_1" />
+        <item itemvalue="Python.4214" />
+        <item itemvalue="Python.4212_slow" />
+        <item itemvalue="Python.27" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e63cd5f-027e-4378-8c5f-4cc18322294a" name="Default Changelist" comment="" />
+      <created>1623044651047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623044651047</updated>
+      <workItem from="1623044655397" duration="16586000" />
+      <workItem from="1623297186411" duration="3584000" />
+      <workItem from="1623384104730" duration="8415000" />
+      <workItem from="1623397066861" duration="9458000" />
+      <workItem from="1623394129901" duration="84000" />
+      <workItem from="1623394260739" duration="411000" />
+      <workItem from="1623730376107" duration="16601000" />
+      <workItem from="1623814195396" duration="2443000" />
+      <workItem from="1623827801184" duration="5252000" />
+      <workItem from="1623851557466" duration="2481000" />
+      <workItem from="1624003967325" duration="609000" />
+      <workItem from="1624349879175" duration="8898000" />
+      <workItem from="1624517119204" duration="262000" />
+      <workItem from="1624596586075" duration="11708000" />
+      <workItem from="1640171311701" duration="1360000" />
+      <workItem from="1640745066694" duration="194000" />
+    </task>
+    <task id="LOCAL-00001" summary="Добавлены 15 и 19-21">
+      <created>1623046148295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623046148295</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Решение 2390 (19-21) рекурсией">
+      <created>1623052277046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623052277046</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Решение 2390 (19-21) рекурсией (упрощенная запись)">
+      <created>1623052801896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623052801896</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавлены файлы Крылова 27">
+      <created>1623308798638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623308798638</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Файлы с числами вынесены в отдельную папку">
+      <created>1623308993214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623308993214</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавлены задачи 2 и 52 (номер 2)">
+      <created>1623390233931</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623390233931</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Порешал пробник Кабанова от 7.06">
+      <created>1623394321086</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623394321086</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Добавил файлы с сайта Полякова в 27">
+      <created>1623730978044</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623730978044</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Решение демоверсии 2021 через минимальную разность и частичные суммы">
+      <created>1623736338785</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623736338785</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Добавлено решение Поляков 1">
+      <created>1623737849144</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623737849144</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Добавлено решение Поляков 2, 3&#10;Решения Крылова">
+      <created>1623752150215</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623752150215</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Решено Поляков 27 номер 21">
+      <created>1623756718244</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623756718244</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Решено Поляков 27 номер 22">
+      <created>1623757570803</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1623757570803</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Добавлено несколько решений задач Полякова">
+      <created>1623828054059</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1623828054059</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Добавлено несколько решений задач Полякова">
+      <created>1623838551531</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1623838551531</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Добавлено несколько решений задач Полякова">
+      <created>1624349886791</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1624349886791</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Файлы со стрима по рандомному варианту Крылова">
+      <created>1624517234192</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1624517234192</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Файлы со стрима по рандомному варианту Крылова">
+      <created>1624596658561</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1624596658562</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Решение 26 с основной волны 2021">
+      <created>1624604660533</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1624604660533</updated>
+    </task>
+    <task id="LOCAL-00020" summary="26 задание Статград 17.12.2021">
+      <created>1640172306983</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1640172306983</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Добавлены решения пробного варианта от 15.12.2021">
+      <created>1640745248167</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1640745248174</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Добавлены 15 и 19-21" />
+    <MESSAGE value="Решение 2390 (19-21) рекурсией" />
+    <MESSAGE value="Решение 2390 (19-21) рекурсией (упрощенная запись)" />
+    <MESSAGE value="Добавлены файлы Крылова 27" />
+    <MESSAGE value="Файлы с числами вынесены в отдельную папку" />
+    <MESSAGE value="Добавлены задачи 2 и 52 (номер 2)" />
+    <MESSAGE value="Порешал пробник Кабанова от 7.06" />
+    <MESSAGE value="Добавил файлы с сайта Полякова в 27" />
+    <MESSAGE value="Решение демоверсии 2021 через минимальную разность и частичные суммы" />
+    <MESSAGE value="Добавлено решение Поляков 1" />
+    <MESSAGE value="Добавлено решение Поляков 2, 3&#10;Решения Крылова" />
+    <MESSAGE value="Решено Поляков 27 номер 21" />
+    <MESSAGE value="Решено Поляков 27 номер 22" />
+    <MESSAGE value="Добавлено несколько решений задач Полякова" />
+    <MESSAGE value="Файлы со стрима по рандомному варианту Крылова" />
+    <MESSAGE value="Решение 26 с основной волны 2021" />
+    <MESSAGE value="26 задание Статград 17.12.2021" />
+    <MESSAGE value="Добавлены решения пробного варианта от 15.12.2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены решения пробного варианта от 15.12.2021" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/programs$1425_kab.coverage" NAME="1425_kab Coverage Results" MODIFIED="1623394262551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6" />
+    <SUITE FILE_PATH="coverage/programs$1395_kab.coverage" NAME="1395_kab Coverage Results" MODIFIED="1623398706336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/26" />
+    <SUITE FILE_PATH="coverage/programs$solution_min_diff__1_.coverage" NAME="solution_min_diff (1) Coverage Results" MODIFIED="1623814474274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/files/23" />
+    <SUITE FILE_PATH="coverage/programs$1422.coverage" NAME="1422 Coverage Results" MODIFIED="1623393797354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2" />
+    <SUITE FILE_PATH="coverage/programs$25.coverage" NAME="25 Coverage Results" MODIFIED="1624358132572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$2390_recursion_2.coverage" NAME="2390 recursion 2 Coverage Results" MODIFIED="1623052667900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19-21" />
+    <SUITE FILE_PATH="coverage/programs$16.coverage" NAME="16 Coverage Results" MODIFIED="1624355720421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$22.coverage" NAME="22 Coverage Results" MODIFIED="1624357229174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$27_20.coverage" NAME="27_20 Coverage Results" MODIFIED="1623738573024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/Крылов" />
+    <SUITE FILE_PATH="coverage/programs$solution_part_sums.coverage" NAME="solution_part_sums Coverage Results" MODIFIED="1623757289493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/files/22" />
+    <SUITE FILE_PATH="coverage/programs$4109.coverage" NAME="4109 Coverage Results" MODIFIED="1623851992515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19-21" />
+    <SUITE FILE_PATH="coverage/programs$solution.coverage" NAME="solution_part_sums Coverage Results" MODIFIED="1623736787541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/files/demo2021" />
+    <SUITE FILE_PATH="coverage/programs$solution_full_sums__1_.coverage" NAME="solution_full_sums (1) Coverage Results" MODIFIED="1623814934285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/files/46" />
+    <SUITE FILE_PATH="coverage/programs$27_20_2.coverage" NAME="27_20_2 Coverage Results" MODIFIED="1623308557114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/Крылов" />
+    <SUITE FILE_PATH="coverage/programs$2.coverage" NAME="2 Coverage Results" MODIFIED="1624351392252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$4168.coverage" NAME="4168 Coverage Results" MODIFIED="1623392127530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14" />
+    <SUITE FILE_PATH="coverage/programs$4212_fast_1.coverage" NAME="4212_fast_1 Coverage Results" MODIFIED="1624610370786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27" />
+    <SUITE FILE_PATH="coverage/programs$52.coverage" NAME="52 Coverage Results" MODIFIED="1623390205559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2" />
+    <SUITE FILE_PATH="coverage/programs$test.coverage" NAME="test Coverage Results" MODIFIED="1624611807615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27" />
+    <SUITE FILE_PATH="coverage/programs$1396_kab_2.coverage" NAME="1396_kab 2 Coverage Results" MODIFIED="1623405258672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27" />
+    <SUITE FILE_PATH="coverage/programs$1410_kab.coverage" NAME="1410_kab Coverage Results" MODIFIED="1623395532598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14" />
+    <SUITE FILE_PATH="coverage/programs$4212.coverage" NAME="4212_slow Coverage Results" MODIFIED="1624609022511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27" />
+    <SUITE FILE_PATH="coverage/programs$23.coverage" NAME="23 Coverage Results" MODIFIED="1624357349647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$1428_kab.coverage" NAME="1428_kab Coverage Results" MODIFIED="1623397303969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/24" />
+    <SUITE FILE_PATH="coverage/programs$solution_full_sums.coverage" NAME="solution_full_sums Coverage Results" MODIFIED="1623814638963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/files/23" />
+    <SUITE FILE_PATH="coverage/programs$3905.coverage" NAME="3905 Coverage Results" MODIFIED="1623391114889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5" />
+    <SUITE FILE_PATH="coverage/programs$27_8.coverage" NAME="27_8 Coverage Results" MODIFIED="1623739227458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/Крылов" />
+    <SUITE FILE_PATH="coverage/programs$27_10.coverage" NAME="27_10 Coverage Results" MODIFIED="1623739103352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/Крылов" />
+    <SUITE FILE_PATH="coverage/programs$17.coverage" NAME="17 Coverage Results" MODIFIED="1624355850032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$27.coverage" NAME="27 Coverage Results" MODIFIED="1624359773052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$24.coverage" NAME="24 Coverage Results" MODIFIED="1624357713045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$27_19.coverage" NAME="27_19 Coverage Results" MODIFIED="1623738716987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/Крылов" />
+    <SUITE FILE_PATH="coverage/programs$27_13.coverage" NAME="27_13 Coverage Results" MODIFIED="1623738909685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/Крылов" />
+    <SUITE FILE_PATH="coverage/programs$1420_kab.coverage" NAME="1420_kab Coverage Results" MODIFIED="1623396291349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19-21" />
+    <SUITE FILE_PATH="coverage/programs$1396_kab.coverage" NAME="1396_kab Coverage Results" MODIFIED="1623408578617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27" />
+    <SUITE FILE_PATH="coverage/programs$15.coverage" NAME="15 Coverage Results" MODIFIED="1624355568251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$12.coverage" NAME="12 Coverage Results" MODIFIED="1624354973511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$solution_full_sums__2_.coverage" NAME="solution_full_sums (2) Coverage Results" MODIFIED="1623757261697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/files/22" />
+    <SUITE FILE_PATH="coverage/programs$6.coverage" NAME="6 Coverage Results" MODIFIED="1624353689659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$3974.coverage" NAME="3974 Coverage Results" MODIFIED="1623063988974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2" />
+    <SUITE FILE_PATH="coverage/programs$19_21.coverage" NAME="19-21 Coverage Results" MODIFIED="1624357082092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$8.coverage" NAME="8 Coverage Results" MODIFIED="1624354199182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$4147.coverage" NAME="4147 Coverage Results" MODIFIED="1623055607518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2" />
+    <SUITE FILE_PATH="coverage/programs$1394_kab.coverage" NAME="1394_kab Coverage Results" MODIFIED="1623397683409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25" />
+    <SUITE FILE_PATH="coverage/programs$solution_min_diff.coverage" NAME="solution_min_diff Coverage Results" MODIFIED="1624004199538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/files/21" />
+    <SUITE FILE_PATH="coverage/programs$2390.coverage" NAME="2390 Coverage Results" MODIFIED="1623044987720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19-21" />
+    <SUITE FILE_PATH="coverage/programs$4148.coverage" NAME="4148 Coverage Results" MODIFIED="1623055453030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2" />
+    <SUITE FILE_PATH="coverage/programs$solution_part_sums__1_.coverage" NAME="solution_part_sums (1) Coverage Results" MODIFIED="1623814599710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/files/23" />
+    <SUITE FILE_PATH="coverage/programs$14.coverage" NAME="14 Coverage Results" MODIFIED="1624355209051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$4214.coverage" NAME="4214 Coverage Results" MODIFIED="1624609984085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/26" />
+    <SUITE FILE_PATH="coverage/programs$5.coverage" NAME="5 Coverage Results" MODIFIED="1624353005776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+    <SUITE FILE_PATH="coverage/programs$solution_min_diff__2_.coverage" NAME="solution_min_diff (2) Coverage Results" MODIFIED="1623815353831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/files/46" />
+    <SUITE FILE_PATH="coverage/programs$1428_kab2.coverage" NAME="1428_kab2 Coverage Results" MODIFIED="1623399482917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/24" />
+    <SUITE FILE_PATH="coverage/programs$2390_recursion.coverage" NAME="2390 recursion Coverage Results" MODIFIED="1623052150013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19-21" />
+    <SUITE FILE_PATH="coverage/programs$27_18.coverage" NAME="27_18 Coverage Results" MODIFIED="1623738819654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/27/Крылов" />
+    <SUITE FILE_PATH="coverage/programs$1407_kab.coverage" NAME="1407_kab Coverage Results" MODIFIED="1623395909954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17" />
+    <SUITE FILE_PATH="coverage/programs$1408_kab.coverage" NAME="1408_kab Coverage Results" MODIFIED="1623395774113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16" />
+    <SUITE FILE_PATH="coverage/programs$26.coverage" NAME="26 Coverage Results" MODIFIED="1624358840395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Пробные/Рандомный Крылов 1" />
+  </component>
+</project>
