@@ -10,4 +10,5 @@ for start in range(3):
         else:
             mx = max(mx, k)
             k = 0
+    mx = max(mx, k)
 print(mx)
