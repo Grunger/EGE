@@ -1,4 +1,4 @@
-s = open('24.txt').read().strip()
+s = open('24_T.txt').read().strip()
 m = 0
 gl = 'AEU'
 sogl = 'BCDF'
