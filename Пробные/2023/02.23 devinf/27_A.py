@@ -1,4 +1,4 @@
-f = open('27-A.txt')
+f = open('27-T.txt')
 n = int(f.readline())
 data = [int(i) for i in f]
 mn = 10 ** 9
@@ -12,8 +12,8 @@ for i in range(n // 2):
             st += dist_a * data[k]
         else:
             st += dist_b * data[k]
-        # print(k, st, dist_a, dist_b)
-    print(i, j, st)
+        print(k, st, dist_a, dist_b)
+    print('---', i, j, st)
     mn = min(mn, st)
 print(mn)
 # 65049

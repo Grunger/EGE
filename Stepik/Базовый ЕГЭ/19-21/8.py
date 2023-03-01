@@ -18,7 +18,7 @@ for i in range(500):
 
 for i in range(500):
     for j in range(500):
-        if s[i][j] == 0 and all(s[a][b] == 1 for a, b in move((i, j))):
+        if s[i][j] == 0 and all(s[a][b] == 1 or a + b > lose for a, b in move((i, j))):
             s[i][j] = -1
 
 for i in range(500):
@@ -28,11 +28,10 @@ for i in range(500):
 
 for i in range(500):
     for j in range(500):
-        if s[i][j] == 0 and all(s[a][b] in (1, 2) for a, b in move((i, j))):
+        if s[i][j] == 0 and all(s[a][b] in (1, 2) or a + b > lose for a, b in move((i, j))):
             s[i][j] = -2
-if all(i in s[first] for i in (-1, -2, 2)):
-    print(first)
-    for i in range(win + 1):
-        if s[first][i] in (-2, -1, 2):
-            print((first, i), s[first][i])
-    print('-' * 10)
+
+for i in range(38):
+    if s[first][i] in (-2, -1, 2):
+        print((first, i), s[first][i])
+print('-' * 10)
