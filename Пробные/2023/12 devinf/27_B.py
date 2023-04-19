@@ -1,7 +1,7 @@
 import math
 from itertools import accumulate
 
-f = open('27_A.txt')
+f = open('27_B.txt')
 n, capacity = map(int, f.readline().split())
 data = dict()
 for i in range(n):
