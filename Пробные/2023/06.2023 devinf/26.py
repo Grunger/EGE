@@ -3,10 +3,10 @@ k = int(f.readline())
 n = int(f.readline())
 a = [[int(j) for j in i.split()] for i in f]
 a.sort()
-q = []
-oper = [0] * k
-last = 0
-count = 0
+q = []  # очередь
+oper = [0] * k  # операторы. Хранится время, когда освободится
+last = 0  # последний оператор, принявший посетителя
+count = 0  # общее количество принятых посетителей
 for t in range(86400):
     # освобождение
     for i in range(k):

@@ -2,6 +2,7 @@ from fnmatch import fnmatch
 
 
 def is_prime(x):
+    """Функция, проверяющая, является ли число простым"""
     for i in range(2, x):
         if x % i == 0:
             return False
@@ -9,9 +10,11 @@ def is_prime(x):
 
 
 def prime_divs(x):
+    """Представление числа как произведение простых множителей"""
     i = 0
-    d = []
+    d = []  # список для хранения множителей
     while x > 1:
+        # Пока число делится на простой множитель, добавляем его
         while x % all_prime_divs[i] == 0:
             d.append(all_prime_divs[i])
             x //= all_prime_divs[i]
@@ -19,6 +22,7 @@ def prime_divs(x):
     return d
 
 
+# Получим все простые числа в диапазоне до 10**4
 all_prime_divs = [i for i in range(2, 10**4) if is_prime(i)]
 for x in range(10**4):
     if fnmatch(str(x), '*2?2'):

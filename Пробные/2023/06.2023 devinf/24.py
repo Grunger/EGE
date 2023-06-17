@@ -11,7 +11,7 @@ mx = max(mx, k)
 print(mx)
 
 for c in 'QWERTYUIOPASDFGHJKLZXCVBNM':
-	while c * 2 in s:
-		s = s.replace(c + c, c + ' ' + c)
+    while c * 2 in s:
+        s = s.replace(c + c, c + ' ' + c)
 print(max(len(i) for i in s.split()))
 

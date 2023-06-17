@@ -1,5 +1,5 @@
 a = [int(i) for i in open('17.txt').read().split()]
-mx2 = max(i for i in a if 10 <= abs(i) <= 99)
+mx2 = max(i for i in a if 10 <= i <= 99)
 print(mx2)
 ans = []
 for x, y in zip(a, a[1:]):

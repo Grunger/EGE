@@ -17,17 +17,20 @@ def slow():
 
 
 def fast():
-    s = sum(a)
-    min_s = {i: 10**10 for i in range(23)}
-    min_k = {i: 0 for i in range(23)}
-    for x in a:
-        new_min_s = min_s.copy()
-        for i in range(23):
-            ost = (x + min_s[i]) % 23
+    s = sum(a)  # сумма всех чисел
+    min_s = {i: 10**10 for i in range(23)}  # словарь с минимальными суммами
+    min_k = {i: 0 for i in range(23)}  # соответствующее суммам количество чисел
+    for x in a:  # перебираем все числа
+        new_min_s = min_s.copy()  # делаем копию словаря
+        for i in range(23):  # перебираем все текущие минимальные суммы
+            ost = (x + min_s[i]) % 23  # остаток от деления на 23 нового числа и текущей минимальной суммы
+            # перезапоминаем минимальную сумму, если она меньше текущего минимального остатка
+            # или равна ему, но при этом получена меньшим количеством чисел
             if x + min_s[i] < min_s[ost] or x + min_s[i] == min_s[ost] and min_k[x % 23] + min_k[i] < min_k[ost]:
                 new_min_s[ost] = x + min_s[i]
                 min_k[ost] = 1 + min_k[i]
         min_s = new_min_s
+        # проверяем, не является ли сам х минимальной суммой
         if x <= min_s[x % 23]:
             min_s[x % 23] = x
             min_k[x % 23] = 1
