@@ -21,6 +21,5 @@ def g(x):
 
 
 for s in range(1, 348):
-    r = g(s)
-    if r == -2:
-        print(s, r)
+    if g(s) == 2:
+        print(s, g(s))

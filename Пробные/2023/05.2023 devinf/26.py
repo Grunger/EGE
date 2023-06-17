@@ -8,6 +8,7 @@ cells2 = [0] * k
 count = 0
 cnt = 0
 count_t = 0
+count_t2 = 0
 for t in range(1441):
     # print(t, cells)
     # освобождаем
@@ -17,9 +18,9 @@ for t in range(1441):
     for i in range(k):
         if cells2[i] == t:
             cells2[i] = 0
+    # Проверяем, все ли ячейки заняты по версии 1
     if 0 not in cells2:
-        count_t += 1
-        # print(t)
+        count_t2 += 1
     # занимаем
     for st, time in a:
         if st == t:
@@ -32,7 +33,10 @@ for t in range(1441):
                         break
             else:
                 count += 1
+    # Проверяем, все ли ячейки заняты по версии 2
+    if 0 not in cells2:
+        count_t += 1
 print(count, n - cnt)
-# 512
 print(count_t)
-# 617
+print(count_t2)
+

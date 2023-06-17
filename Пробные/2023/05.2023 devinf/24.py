@@ -13,11 +13,9 @@ for start in range(2):
             k = 0
     mx = max(mx, k)
 print(mx)
-
-#s = s.replace('B', 'A').replace('C', 'A')
-a = ['AA', 'AB', 'AC', 'BA' , 'BB', 'BC', 'CA', 'CB', 'CC']
-for b in a:
-    s = s.replace(b, '*')
+#
+# # Через замены
+s = s.replace('B', 'A').replace('C', 'A').replace('AA', '*')
 k = 0
 mx = 0
 for i in range(len(s)):
@@ -27,3 +25,16 @@ for i in range(len(s)):
     else:
         k = 0
 print(mx)
+
+s = open('24.txt').read().strip()
+s = s.replace('B', 'A').replace('C', 'A').replace('AA', '*')
+for i in 'ABCQWERTYUIOPSDFGHJKLZXVNM':
+    s = s.replace(i, ' ')
+print(len(max(s.split(), key=len)))
+
+f = open('24.txt').read().strip()
+f = f.replace('B', 'A').replace('C', 'A')
+i = 0
+while 'A' * i in f:
+    i += 1
+print((i - 1) // 2)
