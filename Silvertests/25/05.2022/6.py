@@ -14,10 +14,10 @@ x = 850_001
 while k < 5:
     d = divs(x)
     count = []
-    for i in d[::-1]:
+    for i in d:
         i = str(i)
         if len(i) > 2 and any(f'5{j}1' in i for j in range(10)):
-            count.append(i)
+            count.append(int(i))
     if count and len(count) % 5 == 0:
         print(x, max(count))
         k += 1
