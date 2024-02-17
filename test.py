@@ -1,6 +1,5 @@
-# 15-ричная СС
-for x in '0123456789abcde':
-    a = int(f'99658{x}29', 15) + int(f'102{x}023', 15)
-    # кратно 14
-    if a % 14 == 0:
-        print(a // 14)
+k = 0
+for x in range(10, 100):
+    if x % 2 == 1 and x <= 67:
+        k += 1
+print(k)

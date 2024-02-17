@@ -10,10 +10,10 @@
 
 k = 0
 with open('24.txt') as f:
-    data = [i for i in f.read().strip()]
-    for i in range(1, len(data)):
-        if data[i] in 'DEV' and data[i + 1] in 'INF' or data[i] in 'DEV' and data[i - 1] in 'INF':
+    data = f.read().strip()
+    for i in range(len(data) - 1):
+        if data[i] in 'DEV' and data[i + 1] in 'INF' or data[i] in 'INF' and data[i + 1] in 'DEV':
             k += 1
     print(k)
 
-
+# 535460
