@@ -18,5 +18,5 @@ for i in range(n):
 print(k)
 for i in range(n):
     if m[i][0] >= way[-2][0]:
-        print(m[i], m[i][0] - way[-2][0])
+        print(m[i], m[i][0] - way[-2][1])
 
