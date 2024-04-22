@@ -11,5 +11,6 @@ n = 10
 first = ''
 for i in range(2**max_len):
     codes = []
-    for code in next_code(first)
+    for code in next_code(first):
+        pass
 
