@@ -1,9 +1,17 @@
-s = open('24_11_15.txt').read().strip()
+s = open('24.txt').read().strip()
+# print([s])
 s = s.split('W')
+# print(s)
 s = [len(i) for i in s]
-m = 10 ** 10
+# print(s)
 d = 200
-for i in range(len(s) - d - 1):
-    k = sum(s[i:i + d + 1]) + d
+m = sum(s[:d]) + d
+
+
+for i in range(1, len(s) - d + 1):
+    k = sum(s[i:i + d - 1]) + d
+    # print(i, i + d - 1, k)
     m = min(m, k)
 print(m)
+# 9161
+
