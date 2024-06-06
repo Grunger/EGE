@@ -11,7 +11,8 @@ while rt < len(s):
         rt += 1
     while s[lt] != 'W':
         lt += 1
-    m = min(m, rt - lt + 1)
+    m = min(m, rt - lt)
+    # print(s[lt:rt])
     lt += 1
     k -= 1
 if s[rt - 1] == 'W':
