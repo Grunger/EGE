@@ -20,6 +20,7 @@ for p in a:
 cen = []
 for i in range(3):
     mn = 10**10
+    cn = 0
     for p1 in c[i]:
         x1, y1 = p1
         s = 0
@@ -35,7 +36,7 @@ for i in range(3):
 
 print(len(c[0]), len(c[1]), len(c[2]))
 # 3278 3276 3230
-qx = ((cen[1][0] - cen[2][0]) ** 2 + (cen[1][1] - cen[2][1]) ** 2) ** 0.5
+qx = ((cen[0][0] - cen[2][0]) ** 2 + (cen[0][1] - cen[2][1]) ** 2) ** 0.5
 qy = 10**10
 for p in c[1] + c[2]:
     x1, y1 = p
@@ -50,7 +51,7 @@ for p in c[0] + c[1]:
 
 print(qx * 10000, qy * 10000)
 # 100413.37009138719 41440.70909745937
-# 100413 41440
+# 70428 41440
 colors = ['red', 'green', 'blue']
 for i in range(3):
     for p in c[i]:
