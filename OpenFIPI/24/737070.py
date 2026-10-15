@@ -10,7 +10,7 @@ mx = 0
 # print(len(s))
 for l in range(len(s)):
     # print(l, len(s))
-    if s[l] == '0':
+    if s[l] == '0' or s[l] == '-':
         continue
     for r in range(l + mx, len(s)):
         t = s[l:r]
@@ -28,7 +28,5 @@ for l in range(len(s)):
         if f:
             break
         mx = max(mx, len(t))
-        if len(t) == 934:
-            print(s[l - 1: r + 1])
 print(mx)
 
