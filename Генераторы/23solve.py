@@ -17,4 +17,4 @@ def f(a, b):
             return float('inf')
         return min(g[a][c] + f(c, b) for c in g[a])
 
-print(f(353, 676))
+print(f(512, 355))

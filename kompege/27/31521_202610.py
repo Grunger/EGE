@@ -35,11 +35,13 @@ mx = 0
 for c in clusters:
     for p1 in c:
         for p2 in c:
-            if p1[-1] == 'II' and p2[-1] == 'II':
+            if p1[-1] == 'III' and p2[-1] == 'III':
                 d = dist(p1, p2)
                 mx = max(mx, d)
 print(mx * 10000)
-
+s = 0
 for c in clusters:
-    print(center(c))
-    print(center(c)[-2] * 10000)
+    cent = center(c)
+    print(cent)
+    s += cent[2]
+print(s / 4 * 10000)
